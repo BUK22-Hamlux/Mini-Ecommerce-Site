@@ -1,5 +1,5 @@
 import Button from "../common/Button"
-function ProductCard({imageURL, productName, price, alt}){
+function ProductCard({imageURL, productName, price, alt, onClick}){
 
     return(
         <div className="rounded-2xl border border-gray-100 overflow-hidden flex flex-col h-full hover:scale-105 transition-transform duration-300">
@@ -17,6 +17,7 @@ function ProductCard({imageURL, productName, price, alt}){
                 <Button 
                     text="Add to Cart"
                     optionalClassName="bg-blue-500 text-white w-full"
+                    onClick={onClick}
                 />
             </div>
             

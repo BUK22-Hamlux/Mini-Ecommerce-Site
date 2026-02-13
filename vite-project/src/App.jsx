@@ -1,15 +1,12 @@
 import Navbar from "./components/layout/Navbar";
-import Header from "./sections/Header";
-import ProjectGrid from "./sections/ProductGrid";
+import Home from "./sections/Home";
 import SocialLinks from "./sections/SocialLinks";
 import Footer from "./components/layout/Footer";
 
 function App(){
     return(
         <>
-            <Navbar />
-            <Header />
-            <ProjectGrid />
+            <Home />
             <SocialLinks />
             <Footer />
         </>

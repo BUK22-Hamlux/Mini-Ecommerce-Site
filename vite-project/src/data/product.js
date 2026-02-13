@@ -33,7 +33,7 @@ const Products = [
     productName: "Smart Deskt Lamp",
     price: 5.0,
     imageURL: Images.Lamp,
-    alt: "Smart Deskt Lamp",
+    alt: "Smart Desktop Lamp",
     category: "Home & Garden",
   },
   {

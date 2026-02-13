@@ -32,6 +32,7 @@ function SocialLinks(){
                 <div className="flex flex-col gap-1">
                     {shopLInks.map((shop) => (
                         <a
+                            key={shop.name}
                             href={shop.link}
                             className="text-sm text-gray-600 hover:text-blue-500"
                         >{shop.name}</a>
@@ -44,6 +45,7 @@ function SocialLinks(){
                 <div className="flex flex-col gap-1">
                     {supportLInks.map((support) => (
                         <a
+                            key={support.name}
                             href={support.link}
                             className="text-sm text-gray-600 hover:text-blue-500"
                         >{support.name}</a>
@@ -56,6 +58,7 @@ function SocialLinks(){
                 <div className="flex flex-col gap-1">
                     {companyLInks.map((company) => (
                         <a
+                            key={company.name}
                             href={company.link}
                             className="text-sm text-gray-600 hover:text-blue-500"
                         >{company.name}</a>
