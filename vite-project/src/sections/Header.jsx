@@ -1,4 +1,5 @@
 import Button from "../components/common/Button";
+import { Menu } from "lucide-react";
 
 function Header({ filter, filterBy, setFilterBy }) {
   return (
