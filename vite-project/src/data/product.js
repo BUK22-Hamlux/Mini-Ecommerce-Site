@@ -53,7 +53,7 @@ const Products = [
   {
     productName: "Ceramin Plant Pot Set",
     price: 25.0,
-    imageURL: Images.PotSet,
+    imageURL: Images.potset,
     alt: "Ceramin Plant Pot Set",
     category: "Home & Garden",
   },
