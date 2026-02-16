@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "./Header";
-import ProjectGrid from "./ProductGrid";
+import ProjectGrid from "../components/Products/ProductGrid";
 import Navbar from "../components/layout/Navbar";
 import Products from "../data/product";
 
