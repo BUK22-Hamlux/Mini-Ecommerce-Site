@@ -1,5 +1,5 @@
 import { Trash2, Minus, Plus } from "lucide-react";
-import Button from "../common/Button";
+import TextButton from "../common/Buttons/TextButton";
 
 function ListItemsInCart({
   cartItems,
@@ -56,7 +56,7 @@ function ListItemsInCart({
           </p>
           <p className="font-semibold">${totalPrice}</p>
         </div>
-        <Button
+        <TextButton
           text="Checkout"
           type="primary"
           optionalClassName="w-full mt-4"

@@ -1,4 +1,4 @@
-import Button from "../components/common/Button";
+import TextButton from "../components/common/Buttons/TextButton";
 import { Menu } from "lucide-react";
 
 function Header({ filter, filterBy, setFilterBy }) {
@@ -11,7 +11,7 @@ function Header({ filter, filterBy, setFilterBy }) {
       </p>
       <div className=" flex overflow-x-auto whitespace-nowrap no-scrollbar gap-4 mt-8">
         {filter.map((option) => (
-          <Button
+          <TextButton
             key={option}
             onClick={() => setFilterBy(option)}
             text={option}
