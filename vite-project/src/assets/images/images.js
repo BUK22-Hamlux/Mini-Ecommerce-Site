@@ -5,7 +5,6 @@ import Bag from "./bag.jpg";
 import Lamp from "./lamp.avif";
 import Laptop from "./laptop.avif";
 import Phone from "./phone.jpg";
-import potset from "./potset.avif";
 import Shoes from "./shoes.jpg";
 import SmartWatch from "./smartwatch.jpg";
 import Sunglasses from "./sunglasses.avif";
@@ -19,7 +18,6 @@ const Images = {
   Lamp,
   Laptop,
   Phone,
-  potset,
   Shoes,
   SmartWatch,
   Sunglasses,

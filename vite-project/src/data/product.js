@@ -51,13 +51,6 @@ const Products = [
     category: "Electronics",
   },
   {
-    productName: "Ceramin Plant Pot Set",
-    price: 25.0,
-    imageURL: Images.potset,
-    alt: "Ceramin Plant Pot Set",
-    category: "Home & Garden",
-  },
-  {
     productName: "Minimalist Watch",
     price: 49.0,
     imageURL: Images.SmartWatch,
