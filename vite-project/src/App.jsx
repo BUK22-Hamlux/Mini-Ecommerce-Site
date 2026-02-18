@@ -1,16 +1,13 @@
-import Navbar from "./components/layout/Navbar";
+import React from "react";
+import { CartProvider } from "./contexts/CartProvider";
 import Home from "./sections/Home";
-import SocialLinks from "./sections/SocialLinks";
-import Footer from "./components/layout/Footer";
 
-function App(){
-    return(
-        <>
-            <Home />
-            <SocialLinks />
-            <Footer />
-        </>
-        
-    )
+function App() {
+  return (
+    <CartProvider>
+      <Home />
+    </CartProvider>
+  );
 }
+
 export default App;
